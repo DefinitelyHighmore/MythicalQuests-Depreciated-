@@ -125,7 +125,7 @@ scoreboard players set <SETTING> myquest.settings <NUMBER>
           Dialogue|Plays a tellraw command to the player with added dialogue number (if enabled), prefix and suffix and NPC name.|Write a tellraw command in an ***impulse*** command block as such ``tellraw @p <JSON text>``
           Wait|Waits a specified amount of ticks before continuing with the rest of the script.| Write a number in a writable book on the first page and nothing else. That number is the amount of ticks the script will wait.
           Command|Runs a command as the player at the player|Write the command in a chain command block.
-          Click Event| Displays a clickable text in the chat. Stops the script until it is clicked OR the next element is also a click event. Can hold commands to be run on the player after clicking.|Covered separated in it's own section.
+          Click Event| Displays a clickable text in the chat. Stops the script until it is clicked OR the next element is also a click event. Can hold commands to be run on the player after clicking.|Covered separately in it's own section.
           
        * In the ***Script*** mode only, you may access more detailed chat menus for adding/removing/replacing elements in the script.
        * To access the detailed menu to add/replace an element anywhere in the script, ``Sneak + Right Button`` on the ``+`` button while holding your element. The menu is self-explanatory.
