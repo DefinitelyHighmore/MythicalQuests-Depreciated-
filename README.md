@@ -149,6 +149,8 @@ scoreboard players set <SETTING> myquest.settings <NUMBER>
 
        ```
      * It is recommended to use the setprogress command inside scripts or in click events to award progress.
+     * If a player leaves the game while a script is being read, it is wiped and the player must restart the queststage.
+     * Thus it is HIGHLY advised that quest progress is rewarded at the very end of scripts, so that there are no conflicts with restarting the queststage incase the player leaves in the middle.
      * Elements are added the same to to these as to the script.
      * The following elements may be added to Requirements/Blacklist
          
@@ -351,6 +353,7 @@ scoreboard players set <SETTING> myquest.settings <NUMBER>
   ## By default, suffix is set to {"text":": ","color":"gray"}
   # Dialogues are displayed as such DIALOGUENUMBER(if enabled) PREFIXNPCNAMESUFFIX DIALOGUE
   ```
+
   
    
    
