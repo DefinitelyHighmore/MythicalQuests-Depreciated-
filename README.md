@@ -209,7 +209,7 @@ scoreboard players set <SETTING> myquest.settings <NUMBER>
    # What you want to add in JSON text format, same as you would set an entity's CustomName.
   ```
 * ```Sneak + Right Button``` on an NPC interaction entity to add a queststage to it. It's name is used as the NPC name in dialogue.
-* The name of the interaction entity can be changed later with ```data modify entity UUID CustomName set vale '<NEW NAME>'``` like any other entity, same with it's height and width and even position with teleport.
+* The name of the interaction entity can be changed later with ```data modify entity UUID CustomName set value '<NEW NAME>'``` like any other entity, same with it's height and width and even position with teleport.
 * If you change the name or the position of the interaction entity, The quest database MUST be updated, so right click it with the wand.
 * You can see all the queststages assigned to an NPC and also retrive them by opening a chat menu. ```Sneak + Right Button``` on an NPC with the wand to open the menu.
 
