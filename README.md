@@ -31,7 +31,7 @@ scoreboard players set <SETTING> myquest.settings <NUMBER>
 ---|---|---
 ``$consumeitems``| Consumes hand item when added to editor, basically helps prevent hotbar clutter|true
 ``$dialogueno``| Adds numbering to NPC dialogues, showing current dialogue number and total dialogue number|true
-``$fastforward``| Allows skipping wait times in scripts by right click the NPC holding the queststage, basically allows you to fast forward NPC dialogue|false
+``$fastforward``| Allows skipping wait times in scripts by right clicking the NPC holding the queststage, basically allows you to fast forward NPC dialogue|false
 
 <br/>
 <br/>
@@ -321,7 +321,7 @@ scoreboard players set <SETTING> myquest.settings <NUMBER>
 * If the progress of a playe rin a quest is set to ``complete`` it sorts into the Completed Quests tab. Reward this progress to indicate that a quest is completed.
 * Any other value of progress is sorted into the ongoing section.
 * Each value of progress can hold a corresponding Objective which guides players.
-* To assign an objective for a value of progress, firslty write it in an impulse command block in the format ``tellraw @p [{"text":"example"}]``
+* To assign an objective for a value of progress, firslty write it in an impulse command block in the same format as dialogue:- ``tellraw @p {"text":"example"}``
 * ``Ctrl + Pick Block`` the command block, then while holding it execute the following command:
   
   ```mcfunction
@@ -331,7 +331,7 @@ scoreboard players set <SETTING> myquest.settings <NUMBER>
   # This command will also override any previously assigned objective for that PROGRESS value
   ```
   
-* You may remove an objective the running the command:
+* You may remove an objective by running the command:
   ```mcfunction
   function myquest:api/questbook/removeobjective {quest:"QUEST NAME",progress:"PROGRESS"}
   ```
