@@ -7,8 +7,8 @@
 
 Pack Name|Description
 ------------- | -------------
-``MythicalQuests_v1.2.zip``  | Everything the pack offers.
-``MythicalQuests_v1.2_barebones.zip``|Use after creating all NPCs and quests. Removes menus, editors and other features, only packing the bare minimum to let already made quests function.
+``MythicalQuests_v1.2.1.zip``  | Everything the pack offers.
+``MythicalQuests_v1.2.1_barebones.zip``|Use after creating all NPCs and quests. Removes menus, editors and other features, only packing the bare minimum to let already made quests function.
 
 * After downloading a desired pack, directly drop the zip folder into the datapack folder for your world.
 <br/>
