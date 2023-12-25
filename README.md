@@ -39,7 +39,7 @@ scoreboard players set <SETTING> myquest.settings <NUMBER>
 
 
 # Introduction
-* This section will help you get familiar with terms used in this documentation and give you a general idea of how quests are created organized.
+* This section will help you get familiar with terms used in this documentation and give you a general idea of how quests are created and organized.
 * The details of using the pack will be mentioned later.
 
 <br/>
