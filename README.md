@@ -210,6 +210,8 @@ scoreboard players set <SETTING> myquest.settings <NUMBER>
    # Any decimal number. It is the width of the interaction entity spawned.
    ## <JSON TEXT>
    # What you want to add in JSON text format, same as you would set an entity's CustomName.
+## Example
+function myuqest:api/npc/summon {height:2,width:1,name:'{"text":"John"}'}
   ```
 * ```Sneak + Right Button``` on an NPC interaction entity to add a queststage to it. It's name is used as the NPC name in dialogue.
 * The name of the interaction entity can be changed later with ```data modify entity UUID CustomName set value '<NEW NAME>'``` like any other entity, same with it's height and width and even position with teleport.
