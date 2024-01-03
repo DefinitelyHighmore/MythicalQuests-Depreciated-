@@ -7,8 +7,8 @@
 
 Pack Name|Description
 ------------- | -------------
-``MythicalQuests_v1.2.zip``  | Everything the pack offers.
-``MythicalQuests_v1.2_barebones.zip``|Use after creating all NPCs and quests. Removes menus, editors and other features, only packing the bare minimum to let already made quests function.
+``MythicalQuests_v1.2.1.zip``  | Everything the pack offers.
+``MythicalQuests_v1.2.1_barebones.zip``|Use after creating all NPCs and quests. Removes menus, editors and other features, only packing the bare minimum to let already made quests function.
 
 * After downloading a desired pack, directly drop the zip folder into the datapack folder for your world.
 <br/>
@@ -39,7 +39,7 @@ scoreboard players set <SETTING> myquest.settings <NUMBER>
 
 
 # Introduction
-* This section will help you get familiar with terms used in this documentation and give you a general idea of how quests are created organized.
+* This section will help you get familiar with terms used in this documentation and give you a general idea of how quests are created and organized.
 * The details of using the pack will be mentioned later.
 
 <br/>
@@ -210,6 +210,8 @@ scoreboard players set <SETTING> myquest.settings <NUMBER>
    # Any decimal number. It is the width of the interaction entity spawned.
    ## <JSON TEXT>
    # What you want to add in JSON text format, same as you would set an entity's CustomName.
+## Example
+function myuqest:api/npc/summon {height:2,width:1,name:'{"text":"John"}'}
   ```
 * ```Sneak + Right Button``` on an NPC interaction entity to add a queststage to it. It's name is used as the NPC name in dialogue.
 * The name of the interaction entity can be changed later with ```data modify entity UUID CustomName set value '<NEW NAME>'``` like any other entity, same with it's height and width and even position with teleport.
