@@ -2,7 +2,7 @@
 
 
 # Downloads
-* For versions 1.20.2 and above.
+* For versions 1.20.2.
 * There are 2 downloads available:
 
 Pack Name|Description
