@@ -1,5 +1,7 @@
 <img src="images/MythicalQuests.png" width="1000">
+
 # This version is depreciated. Check out the new version! 
+
 https://github.com/DefinitelyHighmore/MythicalQuests
 
 # Downloads
